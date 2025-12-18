@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 */
 /*
 |--------------------------------------------------------------------------
-| 2) CARGAR TU CSS PERSONALIZADO (HOME, COMPONENTS, ETC)
+| 2) CARGAR TU CSS PERSONALIZADO (HOME, COMPONENTS, ETC)a
 |--------------------------------------------------------------------------
 */
 
