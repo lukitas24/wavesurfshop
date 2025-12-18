@@ -1,0 +1,131 @@
+/* ================================
+   TOP BAR
+================================ */
+.waves-topbar {
+    background: #1f3a5f; /* azul sobrio */
+    height: 6px;
+}
+
+/* ================================
+   HEADER
+================================ */
+.waves-header {
+    background: #ffffff !important;
+    border-bottom: 1px solid #e5ecf3; /* línea sutil */
+    padding: 14px 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header.waves-header {
+    background: none !important;
+    background-color: #ffffff !important;
+}
+
+
+/* sombra MUY suave para separar del contenido */
+.waves-header {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/* ================================
+   LOGO
+================================ */
+.header-logo img {
+    height: 54px;
+    width: auto;
+}
+
+/* ================================
+   NAV
+================================ */
+.header-menu .nav {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu .nav li a {
+    text-decoration: none;
+    color: #1f3a5f;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+
+/* underline moderno */
+.header-menu .nav li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background: #2f80ed;
+    transition: width 0.3s ease;
+}
+
+.header-menu .nav li a:hover::after {
+    width: 100%;
+}
+
+/* ================================
+   SEARCH
+================================ */
+.header-search input {
+    width: 240px;
+    padding: 9px 14px;
+    border: 1px solid #dbe4ee;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-search button {
+    background: #2f80ed;
+    border-radius: 0 10px 10px 0;
+    padding: 9px 16px;
+    border: none;
+}
+
+.header-search button:hover {
+    background: #1f3a5f;
+}
+
+/* ================================
+   ACTIONS
+================================ */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.header-account a,
+.header-cart a {
+    color: #1f3a5f;
+    font-size: 18px;
+}
+
+.header-account a:hover,
+.header-cart a:hover {
+    color: #2f80ed;
+}
+
+.cart-count {
+    background: #2f80ed;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 4px;
+}
